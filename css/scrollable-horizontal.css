@@ -1,0 +1,175 @@
+@CHARSET "ISO-8859-1";
+.scrollable {
+    background: url("http://static.flowplayer.org/img/global/gradient/h300.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    width: 465px;
+}
+
+.scrollabletest {
+    background: url("http://static.flowplayer.org/img/global/gradient/h300.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #DDDDDD; /*color del borde de la foto conferencista*/
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    width: 360px;
+}
+
+.scrollable2 {
+    background: url("http://static.flowplayer.org/img/global/gradient/h300.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #DDDDDD; /*color del borde de la foto conferencista*/
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+}
+.scrollable2uno {
+    background: url("http://static.flowplayer.org/img/global/gradient/h300.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #DDDDDD; /*color del borde de la foto conferencista*/
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    width: 210px;
+}
+.scrollable3 {
+    background: url("http://static.flowplayer.org/img/global/gradient/h300.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+}
+
+.scrollable .items {
+    clear: both;
+    position: absolute;
+    width: 20000em;    
+}
+.scrollable2 .items {
+    clear: both;
+    position: absolute;
+    width: 20000em; 
+   	
+   
+}
+.scrollable2uno .items {
+    clear: both;
+    position: absolute;
+    width: 20000em; 
+   	
+   
+}
+.scrollable3 .items {
+    clear: both;
+    position: absolute;
+    width: 20000em;    
+}
+
+.items div {
+    float: left;
+    width: 850px;
+}
+
+.items2 div {
+    float: center;
+    width: 750px;
+}
+.items3 div {
+    float: left;
+    width: 750px;
+}
+.scrollable img {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 110px;
+    margin: 20px 5px 20px 21px;
+    padding: 2px;
+    width: 400px; /*ancho imagen*/
+}
+
+.scrollabletest img {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    float: center;
+    height: 190px;
+    margin: 20px 5px 20px 21px;
+    padding: 2px;
+    width: 290px;
+}
+
+.scrollable2 img {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    float: center;
+    height: 130px;
+    margin: 20px 5px 20px 21px;
+    padding: 2px;
+    width: 130px;
+}
+.scrollable2uno img {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    float: center;
+    height: 130px;
+    margin: 20px 5px 20px 21px;
+    padding: 2px;
+    width: 180px;
+}
+.scrollable3 img {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 110px;
+    margin: 20px 5px 20px 21px;
+    padding: 2px;
+    width: 110px;
+}
+
+.scrollable4 {
+    background: url("http://static.flowplayer.org/img/global/gradient/h300.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    height: 155px;
+    overflow: hidden;
+    position: relative;
+    width: 195px;
+}
+
+
+
+.scrollable4 .items {
+    clear: both;
+    position: absolute;
+    width: 20000em;    
+}
+
+.items4 div {
+    float: left;
+    width: 750px;
+}
+
+.scrollable4 img {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 110px;
+    margin: 20px 5px 20px 21px;
+    padding: 2px;
+    width: 150px;
+}
+
+
+
+.scrollable .active {
+    border: 2px solid #000000;
+    cursor: default;
+    position: relative;
+}
