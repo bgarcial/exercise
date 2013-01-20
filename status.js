@@ -1,4 +1,3 @@
-
 var passwd_account = "12345";
 var name="Bernardo Garcia";
 var balance=2500000;
@@ -24,7 +23,7 @@ function card(){
     	}
 }
 
-function myBalance(balance,retiro){
+function myBalance(balance){
 	//if(retiro == 0){
 	//var balance=2500000;
 	document.write("El saldo actual de tu cuenta es: " + balance + "<br /><br />");
